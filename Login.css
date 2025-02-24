@@ -1,0 +1,62 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url("../assets/smt-login.webp"); /* Ensure file exists */
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  position: relative;
+}
+
+/* Home Button */
+.navbar {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+
+.home-button {
+  background-color: transparent;
+  color: rgb(119, 227, 23);
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Move Login Title to the Top */
+.login-title {
+  position: absolute;
+  top: 15px; /* Adjust this value to move title up/down */
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(21, 225, 79); /* Title color changed to black */
+}
+
+/* Login Options (Position remains the same) */
+.login-options {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Added gap for spacing */
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.login-button {
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  background-color: #0078D7;
+  color: white;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.login-button:hover {
+  background-color: #0056b3;
+}
